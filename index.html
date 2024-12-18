@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="logo.svg" alt="Spotify">
+                <span>Spotify</span>
+            </li>
+            <li>Home</li>
+            <li>About</li>
+
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="songItems">
+            <div class="item">
+                <img src="cover1.jpg" alt="1"> 
+                <p class="songName">Mere Mehboob mere sanam </p>
+                <span class="timestamp">3:02 <i class="songPlay fa-regular fa-circle-play" id="1"></i></span>
+            </div>
+
+            <div class="item">
+                <img src="" alt="1"> 
+                <p class="songName">One Love </p>
+                <span class="timestamp">3:49 <i class="songPlay fa-regular fa-circle-play" id="2"></i></span>
+            </div>
+
+            <div class="item">
+                <img src="" alt="1"> 
+                <p class="songName">Mere Mehboob mere sanam </p>
+                <span class="timestamp">2:14 <i class="songPlay fa-regular fa-circle-play" id="3"></i></span>
+            </div>
+
+            <div class="item">
+                <img src="" alt="1"> 
+                <p class="songName">sss</p>
+                <span class="timestamp">3:20 <i class="songPlay fa-regular fa-circle-play" id="4"></i></span>
+            </div>
+
+            <div class="item">
+                <img src="" alt="1"> 
+                <p class="songName">sss</p>
+                <span class="timestamp">3:41 <i class="songPlay fa-regular fa-circle-play" id="5"></i></span>
+            </div>
+
+            <div class="item">
+                <img src="" alt="1"> 
+                <p class="songName">sss</p>
+                <span class="timestamp">3:53 <i class="songPlay fa-regular fa-circle-play" id="6"></i></span>
+            </div>
+            
+        </div>
+
+        <div class="music">
+            <img src="music_gif.gif" id="gif">
+        </div>
+    </div>
+
+
+    <div class="bottom">
+        <div class="songInfo">
+             <span id="masterSongName"> Mere Mehmoob Mere Sanam</span>
+        </div>
+        
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-duotone fa-solid fa-backward-step" id="backwardPlay"></i>
+            <i class="fa-regular  fa-circle-play"  id="masterPlay"></i>
+            <i class="fa-duotone fa-solid fa-forward-step" id="forwardPlay"></i>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script src="https://kit.fontawesome.com/601b517717.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
